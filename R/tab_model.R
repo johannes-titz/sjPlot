@@ -539,7 +539,7 @@ tab_model <- function(
             conf.low = "std.conf.low",
             conf.high = "std.conf.high"
           ) %>%
-          dplyr::select(-1, -.data$p.value) %>%
+          dplyr::select(-1, -.data$p.value, -.data$statistic) %>%
           sjmisc::add_columns(dat) %>%
           dplyr::mutate(std.conf.int = sprintf(
             "%.*f%s%.*f",
