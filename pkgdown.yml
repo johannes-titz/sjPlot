@@ -1,0 +1,18 @@
+pandoc: 2.7.3
+pkgdown: 1.6.1.9000
+pkgdown_sha: 84f234cf19153ce99bf1bcf875dc56248ddf0cbe
+articles:
+  blackwhitefigures: blackwhitefigures.html
+  custplot: custplot.html
+  plot_interactions: plot_interactions.html
+  plot_likert_scales: plot_likert_scales.html
+  plot_marginal_effects: plot_marginal_effects.html
+  plot_model_estimates: plot_model_estimates.html
+  sjtitemanalysis: sjtitemanalysis.html
+  tab_bayes: tab_bayes.html
+  tab_mixed: tab_mixed.html
+  tab_model_estimates: tab_model_estimates.html
+  tab_model_robust: tab_model_robust.html
+  table_css: table_css.html
+last_built: 2021-02-03T10:09Z
+
